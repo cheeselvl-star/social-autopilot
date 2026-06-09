@@ -1,0 +1,9 @@
+.env
+state/oauth/token.json
+state/oauth/client_secret.json
+state/oauth/.pkce_state
+__pycache__/
+venv/
+*.pyc
+*.log
+uploads/
