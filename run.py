@@ -44,10 +44,10 @@ def main():
     remaining = sys.argv[3:]
 
     routes = {
-        ("youtube", "upload"):        PLATFORMS / "youtube" / "upload.py",
+        ("youtube", "upload"): PLATFORMS / "youtube" / "upload.py",
         ("youtube", "token-refresh"): PLATFORMS / "youtube" / "token_refresh.py",
-        ("youtube", "oauth-setup"):   PLATFORMS / "youtube" / "oauth_setup.py",
-        ("facebook", "upload"):       PLATFORMS / "facebook" / "upload.py",
+        ("youtube", "oauth-setup"): PLATFORMS / "youtube" / "oauth_setup.py",
+        ("facebook", "upload"): PLATFORMS / "facebook" / "upload.py",
         ("facebook", "token-refresh"): PLATFORMS / "facebook" / "token_refresh.py",
     }
 

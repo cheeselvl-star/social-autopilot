@@ -20,7 +20,6 @@ import sys
 from pathlib import Path
 
 from google_auth_oauthlib.flow import InstalledAppFlow
-from google.oauth2.credentials import Credentials
 
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
